@@ -2,7 +2,7 @@
 function Cell({text, icon, name}) {
     return(
         <li>
-            <p>{text}</p>
+            <p className="text-left">{text}</p>
         </li>
     )
 }
