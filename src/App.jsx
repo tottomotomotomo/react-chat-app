@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <header></header>
 
-      <main>
-        <ul>
+      <main className="flex flex-col">
+        <ul className="grow">
           <Cell text={"こんにちは"}></Cell>
         </ul>
 
