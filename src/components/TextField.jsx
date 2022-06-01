@@ -1,7 +1,19 @@
 function TextField(props) {
     return (
-        <div className="flex justify-between pt-4">
-            <input type="text" value={props.value} onChange={props.onChange} />
+        <div className="flex justify-between pt-4 mb-4 ">
+            <input
+                className="rounded border-2 border-amber-300"
+                type="text"
+                name="userName"
+                value={props.value.userName}
+                onChange={props.onChange}
+            />
+            <input
+                className="rounded border-2 border-cyan-300"
+                type="text"
+                value={props.value.message}
+                onChange={props.onChange}
+            />
             <button onClick={props.onButtonClick}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
